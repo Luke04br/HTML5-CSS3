@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt.br">
+<html lang="pt.br"> <!--mudando pra ptBr=-->
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--Pra colocae "ç" e acentuação-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro exercicio</title>
 </head>
@@ -19,6 +19,8 @@
         &copy; &Delta; <!--para colocar simbolos diversos como Delta = &Delta;-->
     </p> 
     <p>
-        imagens; pexels, 
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/1e60e752371817.5911bda0e84f0.jpg" alt="texto alternativa"> <!-- imagens gratuitas sem diretiso autorais: pexels. 
+        jpeg: algoritmo de compactação, ideal para imagens grandes ou que não precisam de alta resolução, PNG: maior qualidade e suporta fundos transparentes. deixar tamanho mámimo até 1500px e resolução em torno de 70%-->
+      
     </p>
 </html>
