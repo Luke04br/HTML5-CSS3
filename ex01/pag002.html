@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> <!--Pra colocae "ç" e acentuação-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resumo</title> <!--Nome da aba-->
+        <link rel="shortcut icon" href="arquivos/Bokehlicia-Captiva-Edit.ico" type="image/x-icon">
+        <style> 
+            mark   {
+                background-color: rgb(232, 255, 127);
+            }
+
+        </style> <!--Se colocar o Style em head, ele é aplicado em todo o documento exceto naqueles que forem propositalmente alterados-->
+    </head>
+    <body>
+        <h1>Principais formatações</h1>
+        <hr>
+        
+        <h2>Negrito / Destaque</h2>
+        <p> Nesta frase, temos um <b>termo em destaque</b> usando a tag <code>&lt;b&gt;</code> (sem semântica)</p>
+        <p> Nesta frase, temos um <strong> termo em destaque </strong> usando a tag <code>&lt;strong&gt;</code> (com semântica)</p>
+
+        <h2>Itálico / Ênfase</h2>
+        <p> Nesta frase, temos um <i>termo em italico</i> usando a tag <code>&lt;i&gt;</code> (sem semântica) </p>
+        <p> Nesta frase, temos um <em>termo em italico</em> usando a tag <code>&lt;em&gt;</code> (com semântica) </p>
+
+        <h2>Marca texto</h2>
+        <p> Nesta frase, temos um <mark>termo marcado</mark> usando a tag <code>&lt;mark&gt;</code> </p>
+
+        <h2>Estilização</h2>
+        <p> Usa-se <code>style</code> para alterar a cor<mark style="background-color: blue;"> termo marcado com outra cor</mark></p>
+        <p>Lorem ipsum dolor, sit amet consectetur <b style="color: blue;">elit. Mollitia amet excepturi voluptatem nam</b> dolorem odit eos placeat tempore ex praesentium ab perspiciatis voluptatum reprehenderit, dolores culpa natus magnam officiis alias!</p> <!--Lorem para gerar um texto aleatório-->
+
+        <h2>Texto grande e pequeno</h2>
+        <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p> <!--Quando a tag fica vermelha, quer dizer que ela está obsoleta-->
+
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+
+        <h2>Texto adicionado</h2>
+        <p>Podemos marcar <ins>um texto como inserido</ins> para indicar que ele foi adicionado depois. <code>&lt;ins&gt;</code> com semântica</p> 
+        <p>Podemos marcar <u>um texto como sublinhado</u>. <code>&lt;u&gt;</code> sem semântica</p> 
+
+        <h2>Sobrescrito</h2>
+        <p>x<sup>20</sup> + 3</p>
+
+        <h2>Subescrito</h2>
+        <p>H<sub>2</sub>O</p>
+
+        <h1>Outras formatações</h1>
+
+        <h2>Código-fonte / Pré-formatação</h2>
+        <p>O comando <code>document.getElementByID('teste')</code> é escrito em linguagem JavaScript</p> <!--fonte mono espaçada-->
+        <pre>
+            <code>int i;
+            prinf("Digite um numero: "");
+            scanf("%d",&i);
+            if(i%2 == 0)
+                printf("o numero %d é par", i);
+            else
+                printf("o numero %d é impar", i);
+            printf(fim do programa);</code>
+        </pre> <!--a tag pre, mantem os espaços e quebras de linhas iguais as colocadas no código-->
+        
+        <h2>Citações</h2>
+        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p> <!--Citação precisa de semântica-->
+        <p>Segundo ChatGpt, no seu livro, desconhecido:</p>
+        <blockquote cite="https://www.amazon.com.br/Livros/b?ie=UTF8&node=6740748011">
+            Em cada passo, a vida nos ensina, Que o caminho é feito de escolhas e sonhos.O tempo não espera, mas nos molda, E o futuro é uma história que ainda escrevemos.
+        </blockquote><!--citação em bloco, cite marcando sem aparecer no site, -->
+
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+
+        <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">Estou aprendo a criar coisas em HTML.</bdo></p>
+    </body>
+</html>

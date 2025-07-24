@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--Pra colocae "ç" e acentuação-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo</title> <!--Nome da aba-->
+    <link rel="shortcut icon" href="arquivos/Bokehlicia-Captiva-Edit.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Links e Âncoras</h1>
+    <hr>
+
+    <h2>Links externos</h2> <!--Sobrepões seu site-->
+    <p>Você poe acessar meu <a href="https://github.com/luke04BR">repositório público no github</a> Link que sobrescreve a página</p>
+    <p>Você poe acessar meu <a href="https://github.com/luke04BR" target="_blank" rel="externos">repositório público no github</a> Link que abre o site em outra aba, sem sobreposição</p> <!--Quando o link for para um site externo é recomendado esse modelo-->
+
+    <h2>Links internos</h2>
+    <p>Você pode voltar para a <a href="index.html" target="_self" rel="prev">tela inicial</a> aqui</p> <!--Target self para garantir que a página irá sobrescrever a atual já que é sua-->
+
+    <h2>Links para downloads</h2>
+    <p>Coloque o arquivo dentro da pasta ou subpasta do idex (transforme-o em zip se necessário)</p>
+    <ul>
+        <li><a href="CurriculoLCR .pdf" download="CurriculoLCR.pdf" type="application/pdf">Baixar currículo em PDF</a></li> <!--Colocar # caso não tenha o caminho ainda -->
+        <li><a href="CurriculoLCR .zip" download="CurriculoLCR.zip" type="application/zip">Link compactado em ZIP</a></li>
+    </ul>
+    <p>Acessa os tipos de cada arquivo em <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="externos">iana.org</a></p> <!--rel nofollow para Links patrocinados ou anúncios/Conteúdo gerado pelo usuário/Links para conteúdo não confiável/Conteúdo que você não quer que seja associado-->
+</body>
+</html>

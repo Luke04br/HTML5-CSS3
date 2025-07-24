@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> <!--Pra colocae "ç" e acentuação-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resumo</title> <!--Nome da aba-->
+        <link rel="shortcut icon" href="arquivos/Bokehlicia-Captiva-Edit.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h1>Artifícios iniciais</h1>  <!-- &lt; para inserir o símbolo < e &gt; para inserir o símbolo > -->
+        <hr><code>&lt;hr&gt;</code> é para colocar uma linha horizontal. <!--tag CODE para o texto ficar em formato de "código"-->
+
+        <h2>Parágrafos</h2> 
+        <p>Utilizamos a tag <code>&lt;p&gt;</code> para adicionar um parágrafo.</p>
+
+        <h2>Pulando linhas</h2>
+        <p>Utilizamos a tag <code>&lt;br&gt;</code> para pular uma linha aqui<br>depois o texto continua.</p>
+        
+        <h2> Títulos</h2> 
+        <p>Utilizamos as tags <code>&lt;h1&gt;</code> até <code>&lt;h6&gt;</code> para definir títulos sendo o número o que representa o nível. Exemplo:</p> 
+        <ul> 
+            <li><code>&lt;h1&gt;</code>: "Exemplo de título";</li>
+            <li><code>&lt;h2&gt;</code>: "Artícios iniciais";</li>
+            <li><code>&lt;h2&gt;</code>: "Títulos".</li>
+        </ul>
+
+        <h2>Emojis</h2>
+        <p> Podemos adicionar emojis copiando e colandos ou utilizando (&#x + código do emoji). Exemplo:</p>
+        <ul>
+            <li>&#x + 1F30A = &#x1F30A</li>
+            <li>copiando e colando = 🌊</li>
+        </ul>
+        Acessar emojis em <a href="https://emojipedia.org/" target="_blank">Emojipedia </a>
+        
+        <h2>Simbolos</h2>
+        <p>Para colocar símbolos, utilizamos (& + nome do simbolo + ;). Exemplo:</p> 
+        <ul>
+            <li>& + copy + ; = &copy; (simbolo de copyright)</li>
+            <li>& + Delta + ; = &Delta;</li>
+        </ul>
+
+        <h2>Imagens</h2>
+        <p> utilizamos a tag IMG para adionar imagens.<br>Na parte "src" (fonte) colocamos o link do endereço da imagem caso ela seja da internet ou pegamos uma imagem que esteja na mesma pasta ou em uma sub-pasta da do arquivo html</p> 
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/1e60e752371817.5911bda0e84f0.jpg" alt="texto alternativa"> 
+        <p>O texto alternativo servo como recurso de acessibilidade e descrição</p> 
+        Acessar imagens gratuitas em <a href="https://www.pexels.com/pt-br/" target="_blank">Pexels</a>
+        
+        <h2>Formato e configurações de imagem</h2>
+        <h3>.jpeg</h3>
+        <p>Algoritmo de compactação, ideal para imagens grandes ou que não precisam de alta resolução</p>
+        <h3>.png</h3>
+        <p>maior qualidade e suporta fundos transparentes</p> <!--deixar tamanho mámimo até 1500px e resolução em torno de 70%-->
+
+        <h2>Imagens responsívas</h2>
+        <p>Diminua o tamanho da guia para ver funcionando</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="arquivos/foto-p.png" type="image/png"> <!--A ordem deve ser decrescente sempre-->
+            <source media="(max-width: 1050px)" srcset="arquivos/foto-m.png" type="image/png"> <!--Variações de acordo com o tamanho-->
+            <img src="arquivos/foto-g.png" alt="Imagem flexivel"> <!--Imagem padrão-->
+        </picture>
+
+        <h2>Favicon</h2>
+        <p>Olhe lá em cima o favicon!!!</p>
+        Acesse <a href="https://www.iconarchive.com" target="_blank">iconarchive</a> para procurar favicons <br>
+        Acesse <a href="http://favicon.io/" target="_blank">favicon</a> para converter outros arquivos como .txt e .png para .ico
+    </body>
+</html>
