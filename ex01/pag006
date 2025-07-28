@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> <!--Pra colocae "ç" e acentuação-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resumo</title> <!--Nome da aba-->
+        <link rel="shortcut icon" href="arquivos/Bokehlicia-Captiva-Edit.ico" type="image/x-icon">
+        <style> 
+            body{
+                    background-color: aquamarine;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 20px;
+             }
+
+             h2{
+                color: blue;
+                background-color:blanchedalmond;
+             }
+             h3{
+                color: brown;
+             }
+             p{
+                text-align: justify;
+             }
+        </style> <!--Colocando o CSS no início para melhor organzação-->
+    </head>
+        <h1>CSS Interno / Local</h1>
+        <hr>
+        <p>Aplicando CSS, separadamante do HTL, no início do código já definindo os estilos para as tags. Mais organizado, portanto, melhor para entedimento e visibilidade</p>
+
+        <h2>Capítlo 1</h2>
+        <h3>Capítulo 1.1</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum architecto itaque veritatis aliquam ut magnam? Illum amet architecto quod illo? Cupiditate, quasi velit ducimus aliquid impedit exercitationem quod rem blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi nesciunt, mollitia natus quas minus suscipit distinctio alias accusamus quaerat animi dolores fugit odio saepe ad. Quod fuga quas earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore vitae recusandae accusamus placeat quisquam enim velit exercitationem iste, nemo autem ratione, dolorum assumenda culpa similique aliquid. Tempore odio cumque mollitia.</p>
+
+        <h3>Capítulo 1.2</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum architecto itaque veritatis aliquam ut magnam? Illum amet architecto quod illo? Cupiditate, quasi velit ducimus aliquid impedit exercitationem quod rem blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi nesciunt, mollitia natus quas minus suscipit distinctio alias accusamus quaerat animi dolores fugit odio saepe ad. Quod fuga quas earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore vitae recusandae accusamus placeat quisquam enim velit exercitationem iste, nemo autem ratione, dolorum assumenda culpa similique aliquid. Tempore odio cumque mollitia.</p>
+
+        <h2>Capítulo 2</h2>
+        <h3>Capítulo 2.1</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum architecto itaque veritatis aliquam ut magnam? Illum amet architecto quod illo? Cupiditate, quasi velit ducimus aliquid impedit exercitationem quod rem blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi nesciunt, mollitia natus quas minus suscipit distinctio alias accusamus quaerat animi dolores fugit odio saepe ad. Quod fuga quas earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore vitae recusandae accusamus placeat quisquam enim velit exercitationem iste, nemo autem ratione, dolorum assumenda culpa similique aliquid. Tempore odio cumque mollitia.</p>
+    </body>
+</html>
